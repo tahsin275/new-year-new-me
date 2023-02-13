@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+}
+
+.hero-area {
+    background: url("../assets/banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    height: 90vh;
+}
+
+.hero-container {
+    width: 90vw;
+    height: 95vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.text-area {
+    width: 36vw;
+    text-align: right;
+    color: white;
+}
+
+.text-area h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.text-area p {
+    line-height: 25px;
+}
+
+.pb-5 {
+    padding-bottom: 25px;
+}
+
+.btn {
+    padding: 15px 32px;
+    background-color: tomato;
+    font-size: 20px;
+    color: azure;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
