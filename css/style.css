@@ -63,3 +63,82 @@ body {
     background-color: orangered;
     cursor: pointer;
 }
+
+.about-container {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+}
+
+.mt-4 {
+    margin-top: 70px;
+}
+
+.mt-5 {
+    margin-top: 100px;
+}
+
+.mt-6 {
+    margin-top: 200px;
+}
+
+.about-text {
+    text-align: left;
+    width: 60vw;
+    padding: 0px 25px;
+}
+
+.heading-two {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding-bottom: 8px;
+}
+
+ul li::before {
+    content: "\2713";
+    color: #008000;
+    margin-right: 10px;
+}
+
+.plan-container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.plan-container h2 {
+    text-align: center;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid grey;
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem h3 {
+    padding: 20px 0 8px;
+    font-size: 25px;
+}
